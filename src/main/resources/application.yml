@@ -1,0 +1,13 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/crypto_app
+    username: postgres
+    password: postgres
+  application:
+    name: crypto_app
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher

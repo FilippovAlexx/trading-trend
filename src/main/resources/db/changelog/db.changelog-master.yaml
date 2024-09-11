@@ -1,0 +1,5 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/scripts/01_create_coin_table.sql
+  - include:
+      file: db/changelog/scripts/02_create_kline_table.sql
